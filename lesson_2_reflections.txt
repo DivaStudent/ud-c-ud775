@@ -1,0 +1,17 @@
+* How can you use the staging area to make sure you have one commit per logical change?
+    + Just explicitly add the changes by specifying the eaxct file names instead of adding the entire dir to staging area
+
+* What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    + When we want to try something experimentally that may or may not go into the mainstream version
+    + When we want to work on two logically different things without having them make us confine to working on one task
+    
+* How do the diagrams help you visualize the branch structure?
+    + A Diagram is (Sometimes) Worth Ten Thousand Words
+
+* What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    + The merged commit will have the both the branches as its parent
+    + To depict this, we draw arrow in the diagram
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    + Automatic merging without extra information can clobber the content under conflicts
+    + Except when there are no conflicts, it is always better to merge manually
